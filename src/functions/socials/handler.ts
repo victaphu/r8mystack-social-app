@@ -20,8 +20,8 @@ const tiktok: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) 
       postId,
       tiktokId,
       instaId, 
-      instaLike: 32,
-      tiktokLike: 12
+      instaLike: 2,
+      tiktokLike: 2
     } as any;
   }
   else if (event.body.update) {
